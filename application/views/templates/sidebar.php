@@ -54,7 +54,7 @@
       <li class="nav-item">
 				<a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true"
 					aria-controls="collapseTwo">
-					<i class="fas fa-fw fa-cog"></i>
+					<i class="fa fa-cart-arrow-down" aria-hidden="true"></i>
 					<span>Transaksi</span>
 				</a>
 				<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
@@ -68,7 +68,7 @@
       <li class="nav-item">
 				<a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true"
 					aria-controls="collapseThree">
-					<i class="fas fa-fw fa-cog"></i>
+					<i class="fas fa-fw fa-file"></i>
 					<span>Laporan</span>
 				</a>
 				<div id="collapseThree" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
