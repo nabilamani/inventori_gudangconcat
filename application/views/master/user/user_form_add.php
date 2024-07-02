@@ -52,7 +52,7 @@
                       <div>
                             <button type="submit" class="btn btn-primary btn-flat">
                                 <i class="fa fa-pencil"></i>  Simpan</button>
-                            <button type="reset" class="btn btn-info">Reset</button>
+                            <button type="reset" class="btn btn-success">Reset</button>
 
                         </div> 
                     </form>         
