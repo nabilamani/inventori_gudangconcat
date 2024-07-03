@@ -22,7 +22,7 @@
               <div class="col-lg-12 ">
                 <div class="p-3 ">
                   <div class="text-center">
-                    <h1 class="h4 text-gray-900 mb-4">Inventori Gudang Desa Concat</h1>
+                    <h1 class="h4 text-gray-900 mb-4">Inventori Gudang Desa Condongcatur</h1>
                     <p>Silahkan Login!</p>
                     <font color="red"><?php echo $this->session->flashdata('Pesan') ?></font>
                   </div>
