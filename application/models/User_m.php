@@ -101,7 +101,7 @@ class User_m extends CI_Model {
     function user()
     {
         
-        $query = $this->db->query("SELECT * FROM user where blokir = 'N' ");
+        $query = $this->db->query("SELECT * FROM user where blokir = '' ");
         return $query->num_rows();
     }
 }

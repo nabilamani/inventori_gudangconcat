@@ -165,7 +165,7 @@ CREATE TABLE IF NOT EXISTS `user` (
 -- Dumping data for table inventori.user: ~1 rows (approximately)
 /*!40000 ALTER TABLE `user` DISABLE KEYS */;
 INSERT INTO `user` (`user_id`, `username`, `password`, `email`, `level`, `blokir`) VALUES
-	(10, 'admin', '21232f297a57a5a743894a0e4a801fc3', 'admin@gmail.com', 'admin', 'N'),
+	(10, 'admin', '21232f297a57a5a743894a0e4a801fc3', 'admin@gmail.com', 'admin', ''),
 	(26, 'user', 'ee11cbb19052e40b07aac0ca060c23ee', 'user@gmail.com', 'user', '');
 /*!40000 ALTER TABLE `user` ENABLE KEYS */;
 
