@@ -115,15 +115,15 @@ CREATE TABLE IF NOT EXISTS `tbl_transaksi_keluar` (
 -- Dumping data for table inventori.tbl_transaksi_keluar: ~5 rows (approximately)
 /*!40000 ALTER TABLE `tbl_transaksi_keluar` DISABLE KEYS */;
 INSERT INTO `tbl_transaksi_keluar` (`pk_transaksi_keluar_id`, `tanggal`, `id_barang`, `jumlah_keluar`, `status`) VALUES
-	(1, '2021-01-07', 7, 10, 1),
-	(2, '2021-01-07', 7, 2, 2),
-	(3, '2021-01-07', 7, 2, 2),
-	(4, '2021-01-07', 6, 8, 1),
-	(5, '2021-03-11', 7, 5, 1),
-	(6, '2021-03-11', 7, 1, 1),
-	(7, '2021-03-11', 8, 1, 1),
+	(1, '2023-05-07', 7, 10, 1),
+	(2, '2023-08-07', 7, 2, 2),
+	(3, '2023-12-07', 7, 2, 2),
+	(4, '2024-01-07', 6, 8, 1),
+	(5, '2024-02-11', 7, 5, 1),
+	(6, '2024-03-11', 7, 1, 1),
+	(7, '2024-04-11', 8, 1, 1),
 	(8, '0000-00-00', 6, 2, 1),
-	(9, '2021-01-16', 6, 10, NULL);
+	(9, '2024-05-16', 6, 10, NULL);
 /*!40000 ALTER TABLE `tbl_transaksi_keluar` ENABLE KEYS */;
 
 -- Dumping structure for table inventori.tbl_transaksi_masuk
@@ -140,15 +140,15 @@ CREATE TABLE IF NOT EXISTS `tbl_transaksi_masuk` (
 -- Dumping data for table inventori.tbl_transaksi_masuk: ~8 rows (approximately)
 /*!40000 ALTER TABLE `tbl_transaksi_masuk` DISABLE KEYS */;
 INSERT INTO `tbl_transaksi_masuk` (`pk_transaksi_masuk_id`, `tanggal`, `id_barang`, `jumlah_masuk`) VALUES
-	(5, '2021-01-07', 6, 20),
-	(6, '2021-01-06', 6, 8),
-	(7, '2021-01-07', 7, 2),
-	(8, '2021-01-07', 7, 1),
-	(9, '2021-01-07', 7, 12),
-	(10, '2021-02-17', 6, 10),
-	(11, '2021-02-24', 6, 19),
-	(12, '2021-01-08', 8, 20),
-	(13, '2021-01-08', 7, 12);
+	(5, '2023-08-07', 6, 20),
+	(6, '2023-09-06', 6, 8),
+	(7, '2024-01-07', 7, 2),
+	(8, '2024-02-07', 7, 1),
+	(9, '2024-03-07', 7, 12),
+	(10, '2024-03-17', 6, 10),
+	(11, '2024-04-24', 6, 19),
+	(12, '2024-05-08', 8, 20),
+	(13, '2024-06-08', 7, 12);
 /*!40000 ALTER TABLE `tbl_transaksi_masuk` ENABLE KEYS */;
 
 -- Dumping structure for table inventori.user

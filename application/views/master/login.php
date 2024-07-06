@@ -5,7 +5,7 @@
     margin: 20px 200px 10px 200px;
   }
 </style>
-<body class="bg-gradient-primary ">
+<body style="background-color: #323653;">
 
   <div class="container">
 
