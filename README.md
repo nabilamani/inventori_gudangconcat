@@ -10,7 +10,7 @@ Fitur :
 - 2 hak akses (Admin dan user). 
 - data master barang, jenis barang dan satuan.
 - Transaksi keluar masuk barang.
-- Laporan print pdf (Belum/Proses)
+- Laporan print pdf (dompdf)
 - tambah user/admin.
 
 
